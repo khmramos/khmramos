@@ -4,7 +4,7 @@ $CurrentUserProgramsList = Get-ChildItem "HKCU:\SOFTWARE\Microsoft\Windows\Curre
 # These are the uninstall registry keys which correspond to currently installed programs and contain the uninstall command.
 
 
-$ProgramName = "Lenovo Vantage Service", "Microsoft OneNote -en-us", "Microsoft 365 -en-us", "Microsoft Visual C++ *"
+$ProgramName = "Lenovo Vantage Service", "Microsoft OneNote -en-us", "Microsoft 365 -en-us"
 # Program name strings to search for, you can specify multiple by separating them with a comma.
 # Don't use wildcard characters unless the application name contains the wild card character, as these will will be used in a regular expressions match.
 
